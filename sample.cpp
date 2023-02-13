@@ -2,6 +2,9 @@
 #include "spdlog/spdlog.h"
 
 int main () {
+    // TODO set log format
+    // => https://github.com/gabime/spdlog/wiki/3.-Custom-formatting
+    //spdlog::set_pattern("");
     spdlog::set_level(spdlog::level::debug);
     int n = 1;
     std::string s = "hoge";
